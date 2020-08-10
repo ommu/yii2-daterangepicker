@@ -1,0 +1,45 @@
+{
+	"name": "ommu/yii2-daterangepicker",
+	"description": "Yii2 Date Range Picker Widget",
+	"type": "yii2-extension",
+	"keywords": [
+		"extension",
+		"widget",
+		"daterangepicker",
+		"date",
+		"datetime",
+		"daterange",
+		"ommu",
+		"ommu-platform",
+		"yii2"
+	],
+	"license": "Apache-2.0",
+	"homepage": "https://github.com/ommu/yii2-daterangepicker",
+	"support": {
+		"issues": "https://github.com/ommu/yii2-daterangepicker/issues",
+		"wiki": "https://github.com/ommu/yii2-daterangepicker/wiki",
+		"source": "https://github.com/ommu/yii2-daterangepicker"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ommu/yii2-daterangepicker.git"
+	},
+	"authors": [
+		{
+			"name": "Putra Sudaryanto",
+			"email": "putra@ommu.id",
+			"homepage": "https://ommu.id",
+			"role": "Creator"
+		}
+	],
+	"require": {
+		"php": "~7.0",
+		"yiisoft/yii2": "~2.0.13",
+		"npm-asset/daterangepicker": "~3.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"ommu\\daterangepicker\\": ""
+		}
+	}
+}
